@@ -1,8 +1,6 @@
 package tests.problems.koi_x;
 
 import main.problems.koi_x.ReplaceConsonantsAndVowels;
-import org.junit.After;
-import org.junit.Before;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -26,8 +24,5 @@ class ReplaceConsonantsAndVowelsTest {
         replacer.replaceCharacters();
 
         Assertions.assertEquals(".Tsi si  m 100t  arar xema.", replacer.getReplacedString());
-    }
-    @After
-    void tearDown() {
     }
 }
